@@ -1,0 +1,24 @@
+.modal-btn {
+  display: block;
+  color: rgb(0, 26, 255);
+  background-color: yellow;
+  width: 130px;
+  height: 30px;
+  border: 2px solid red;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.modal-btn:focus,
+.modal-btn:hover {
+  background-color: rgb(0, 26, 255);
+  color: yellow;
+  border: 3px solid yellow;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-btn {
+    width: 150px;
+    height: 40px;
+  }
+}

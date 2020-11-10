@@ -1,0 +1,27 @@
+.header {
+  background-color: black;
+}
+.header-navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 767px) {
+  .header-navigation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .header-navigation-item:nth-child(2n) {
+    margin-bottom: 20px;
+  }
+  .header-navigation-item:last-child {
+    margin-bottom: -20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header-navigation {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
